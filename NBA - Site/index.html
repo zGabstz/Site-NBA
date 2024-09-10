@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="imagens/png" href="imagens/logo.png">
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+
+    <style>
+        .best-players-section {
+            margin-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: #D0D1D0;
+        }
+
+        .small-button {
+            background-color: #ed174c;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-family: 'basketball', 'sans-serif';
+            border-radius: 5px;
+        }
+
+        .small-button:hover {
+            background-color: #ff0040;
+        }
+
+        .zoom-card {
+            transition: transform 0.3s ease;
+        }
+
+        .zoom-card:hover {
+            transform: scale(1.05);
+        }
+
+        .navbar-toggler .fa-bars {
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg border-body p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-item active">
+                <img src="imagens/logo-nba.png" alt="logo" class="icon-img">
+            </a>
+            <button class="navbar-toggler mr-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                &nbsp;
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html"> <i
+                                class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./times.html"> <i class="fa-solid fa-basketball-ball"></i> Times</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./jogadores.html"> <i class="fa-solid fa-people-arrows"></i>
+                            Jogadores</a>
+                        </a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item "></li>
+                    <a class="nav-link" href="./ranking.html"> <i class="fa-solid fa-ranking-star"></i> Ranking</a>
+                    </a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./noticias.html"> <i class="fa-solid fa-newspaper"></i> Noticias</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html"> <i class="fa-solid fa-building"></i> Sobre nós</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html"> <i class="fa-solid fa-envelope"></i> Contato</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./criadores.html"> <i class="fa-solid fa-users"></i> Criadores</a>
+                    </li>
+                    &nbsp;
+                </ul>
+                <div class="navbar-buttons ml-auto">
+                    <a href="https://www.instagram.com/nba/" class="btn btn-social"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/nba/?locale=pt_BR" class="btn btn-social"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/carrossel1.jpg" class="d-block w-100" alt="Cesta de basquete">
+                    <div class="carousel-caption">
+                        <h5>O melhor do basquete</h5>
+                        <p>Materiais e equipamentos de primeira linha.</p>
+                        <a href="mais.html" class="btn btn-danger">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/carrossel2.jpg" class="d-block w-100" alt="Time de basquete">
+                    <div class="carousel-caption">
+                        <h5>Influenciando equipes amadoras</h5>
+                        <p>Conheça a NBA, fazendo história no mundo do basquete.</p>
+                        <a href="mais.html" class="btn btn-danger">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/carrossel3.jpg" class="d-block w-100" alt="Estádio de basquete">
+                    <div class="carousel-caption">
+                        <h5>Estrutura moderna e acolhedora</h5>
+                        <p>O palco onde a mágica acontece.</p>
+                        <a href="mais.html" class="btn btn-danger">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>        
+
+        </br></br>
+        <hr class="my-4 custom-hr">
+        </br>
+        <div class="modal fade" id="imagemModal" tabindex="-1" aria-labelledby="imagemModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imagemModalLabel">Imagem do Jogador</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="" id="modalImagem" class="img-fluid" alt="Jogador">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="best-players-section">
+            <h2 class="text-center my-4">Melhores Jogadores da NBA</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow zoom-card">
+                            <a href="imagens/jogadores/mjordan.jpg" class="card-link" data-bs-toggle="modal"
+                                data-bs-target="#imagemModal">
+                                <img src="imagens/jogadores/mjordan.jpg" class="card-img-top zoomable-image"
+                                    alt="Jogador 1">
+                            </a>
+                            <div class="card-body text-center">
+                                <hr class="my-3">
+                                <h5 class="card-title">Michael Jordan</h5>
+                                <p class="card-text">Top 1 mundial</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow zoom-card">
+                            <a href="imagens/jogadores/ljames.jpg" class="card-link" data-bs-toggle="modal"
+                                data-bs-target="#imagemModal">
+                                <img src="imagens/jogadores/ljames.jpg" class="card-img-top zoomable-image"
+                                    alt="Jogador 2">
+                            </a>
+                            <div class="card-body text-center">
+                                <hr class="my-3">
+                                <h5 class="card-title">Lebron James</h5>
+                                <p class="card-text">Top 2 mundial</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow zoom-card">
+                            <a href="imagens/jogadores/kjabbar.jpg" class="card-link" data-bs-toggle="modal"
+                                data-bs-target="#imagemModal">
+                                <img src="imagens/jogadores/kjabbar.jpg" class="card-img-top zoomable-image"
+                                    alt="Jogador 3">
+                            </a>
+                            <div class="card-body text-center">
+                                <hr class="my-3">
+                                <h5 class="card-title">Kareem Abdul-Jabbar</h5>
+                                <p class="card-text">Top 3 mundial</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-end mt-4">
+                        <a href="destaques.html" class="btn btn-danger small-button">As 10 maiores jogadas do
+                            basquete</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </br>
+        <hr class="my-4 custom-hr">
+        </br>
+        <section class="where-to-watch-section text-center">
+            <h2>Onde Assistir os Jogos?</h2>
+            <div class="row justify-content-center my-4">
+                <div class="col-3 col-md-2">
+                    <img src="./imagens/logos/logo_band.png" alt="Band" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="./imagens/logos/logo_amazonprime.png" alt="Amazon Prime Video" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="./imagens/logos/logo_espn.png" alt="ESPN" class="img-fluid">
+                </div>
+                <div class="col-3 col-md-2">
+                    <img src="./imagens/logos/logo_disney.png" alt="Disney+" class="img-fluid">
+                </div>
+            </div>
+        </section>
+    </main>
+    </main>
+    </br>
+    <footer class="bg-dark text-light p-4 mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">REDES SOCIAIS</h5>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://twitter.com/NBABrasil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                            class="text-light mx-2">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="https://www.facebook.com/nba/?locale=pt_BR" class="text-light mx-2">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.youtube.com/NBA" class="text-light mx-2">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/nba/" class="text-light mx-2">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">ENDEREÇO</h5>
+                    <p class="mb-1">
+                        <i class="fas fa-map-marker-alt custom-text-color"></i> Av. Dr. Afonso Vergueiro, 823 - Loja
+                        10701 Bloco I - Centro, Sorocaba - SP, 18035-370
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">HORÁRIO DE FUNCIONAMENTO</h5>
+                    <p class="mb-0">
+                        <i class="far fa-clock custom-text-color"></i> Dom-Dom: 10h - 22h
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <h5 class="custom-text-color fw-bold text-center">LOCALIZAÇÃO</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14636.040444437669!2d-47.4612596!3d-23.4961453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b594525fac9%3A0x634eb1c52d9abee8!2sNBA%20Store!5e0!3m2!1spt-BR!2sbr!4v1725767491537!5m2!1spt-BR!2sbr"
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <hr class="bg-light">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-12">
+                    <p class="text-center small mb-0">
+                        Copyright © 2024 - Giovane Hessel e Amilton Solovinho.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script-Bootstrap -->
+    <script src="./fonts/js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        const imagemModal = document.getElementById('imagemModal');
+        imagemModal.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+            const imageSrc = button.getAttribute('href');
+            const modalImage = document.getElementById('modalImagem');
+            modalImage.src = imageSrc;
+        });
+    </script>
+</body>
+
+</html>
