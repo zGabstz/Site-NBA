@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="imagens/png" href="imagens/logo.png">
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+
+    <style>
+        .team-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 0 auto;
+            transition: transform 0.3s;
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+        }
+
+        .team-card:hover {
+            transform: scale(1.05);
+        }
+
+        .team-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .team-card-body {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .team-card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .btn-principais {
+            background-color: #ed174c;
+            border-color: #ed174c;
+            color: white;
+            font-family: 'basketball', sans-serif;
+            font-size: 19px;
+        }
+
+        .btn-principais:hover {
+            background-color: #c8102e;
+            border-color: #c8102e;
+            color: white;
+        }
+
+        .btn-ranking {
+            background-color: #006bb6;
+            border-color: #006bb6;
+            color: white;
+            font-family: 'basketball', sans-serif;
+            font-size: 19px;
+        }
+
+        .btn-ranking:hover {
+            background-color: #0056a0;
+            border-color: #0056a0;
+            color: white;
+        }
+
+        .navbar-toggler .fa-bars {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg border-body p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-item active">
+                <img src="imagens/logo-nba.png" alt="logo" class="icon-img">
+            </a>
+            <button class="navbar-toggler mr-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                &nbsp;
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html"> <i class="fa-solid fa-house"></i>
+                            Home</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./times.html"> <i class="fa-solid fa-basketball-ball"></i>
+                            Times</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./jogadores.html"> <i class="fa-solid fa-people-arrows"></i>
+                            Jogadores</a>
+                        </a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item "></li>
+                    <a class="nav-link" href="./ranking.html"> <i class="fa-solid fa-ranking-star"></i> Ranking</a>
+                    </a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./noticias.html"> <i class="fa-solid fa-newspaper"></i> Noticias</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html"> <i class="fa-solid fa-building"></i> Sobre nós</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html"> <i class="fa-solid fa-envelope"></i> Contato</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./criadores.html"> <i class="fa-solid fa-users"></i> Criadores</a>
+                    </li>
+                    &nbsp;
+                </ul>
+                <div class="navbar-buttons ml-auto">
+                    <a href="https://www.instagram.com/nba/" class="btn btn-social"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/nba/?locale=pt_BR" class="btn btn-social"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        <div class="alert alert-secondary" role="alert">
+            Bem-vindo à página <strong class="text-danger">Times</strong>, veremos abaixo os principais times da NBA!
+        </div>
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Cartões dos times -->
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/lakers.png" alt="Los Angeles Lakers">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Los Angeles Lakers</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/celtics.png" alt="Boston Celtics">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Boston Celtics</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/warriors.png" alt="Golden State Warriors">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Golden State Warriors</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/bucks.png" alt="Milwaukee Bucks">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Milwaukee Bucks</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/heat.png" alt="Miami Heat">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Miami Heat</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/76ers.png" alt="Philadelphia 76ers">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Philadelphia 76ers</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/nuggets.png" alt="Denver Nuggets">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Denver Nuggets</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/suns.png" alt="Phoenix Suns">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Phoenix Suns</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/raptors.png" alt="Toronto Raptors">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Toronto Raptors</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/mavericks.png" alt="Dallas Mavericks">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Dallas Mavericks</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/pacers.png" alt="Indiana Pacers">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Indiana Pacers</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="team-card">
+                        <img src="imagens/times/blazers.png" alt="Portland Trail Blazers">
+                        <div class="team-card-body">
+                            <h5 class="team-card-title">Portland Trail Blazers</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+
+        <div class="d-flex justify-content-end mb-4">
+            <a href="./destaques.html" class="btn btn-principais me-2">Principais Lances</a>
+            <a href="./ranking.html" class="btn btn-ranking">Ranking</a>
+        </div>
+
+
+    </main>
+
+
+    </br>
+    <footer class="bg-dark text-light p-4 mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">REDES SOCIAIS</h5>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://twitter.com/NBABrasil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                            class="text-light mx-2">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="https://www.facebook.com/nba/?locale=pt_BR" class="text-light mx-2">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.youtube.com/NBA" class="text-light mx-2">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/nba/" class="text-light mx-2">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">ENDEREÇO</h5>
+                    <p class="mb-1">
+                        <i class="fas fa-map-marker-alt custom-text-color"></i> Av. Dr. Afonso Vergueiro, 823 - Loja
+                        10701 Bloco I - Centro, Sorocaba - SP, 18035-370
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">HORÁRIO DE FUNCIONAMENTO</h5>
+                    <p class="mb-0">
+                        <i class="far fa-clock custom-text-color"></i> Dom-Dom: 10h - 22h
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <h5 class="custom-text-color fw-bold text-center">LOCALIZAÇÃO</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14636.040444437669!2d-47.4612596!3d-23.4961453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b594525fac9%3A0x634eb1c52d9abee8!2sNBA%20Store!5e0!3m2!1spt-BR!2sbr!4v1725767491537!5m2!1spt-BR!2sbr"
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <hr class="bg-light">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-12">
+                    <p class="text-center small mb-0">
+                        Copyright © 2024 - Giovane Hessel e Amilton Solovinho.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Script-Bootstrap -->
+    <script src="./fonts/js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

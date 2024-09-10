@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="imagens/logo.png">
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+    <style>
+        .btn-principais {
+            background-color: #ed174c;
+            border-color: #ed174c;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .btn-principais:hover {
+            background-color: #c8102e;
+            border-color: #c8102e;
+        }
+
+        .btn-ranking {
+            background-color: #006bb6;
+            border-color: #006bb6;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .btn-ranking:hover {
+            background-color: #0056a0;
+            border-color: #0056a0;
+        }
+
+        .table th,
+        .table td {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .table td {
+            white-space: nowrap;
+            text-align: left;
+        }
+
+        .table .team-name {
+            display: flex;
+            align-items: center;
+        }
+
+        .table img {
+            max-width: 60px;
+            height: auto;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+
+        .text-muted {
+            font-size: 0.85rem;
+        }
+
+        .navbar-toggler .fa-bars {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg border-body p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-item active">
+                <img src="imagens/logo-nba.png" alt="logo" class="icon-img">
+            </a>
+            <button class="navbar-toggler mr-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html"> <i class="fa-solid fa-house"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./times.html"> <i class="fa-solid fa-basketball-ball"></i> Times</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./jogadores.html"> <i class="fa-solid fa-people-arrows"></i>
+                            Jogadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./ranking.html"> <i class="fa-solid fa-ranking-star"></i>
+                            Ranking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./noticias.html"> <i class="fa-solid fa-newspaper"></i> Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html"> <i class="fa-solid fa-building"></i> Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html"> <i class="fa-solid fa-envelope"></i> Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./criadores.html"> <i class="fa-solid fa-users"></i> Criadores</a>
+                    </li>
+                </ul>
+                <div class="navbar-buttons ml-auto">
+                    <a href="https://www.instagram.com/nba/" class="btn btn-social"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/nba/?locale=pt_BR" class="btn btn-social"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </br>
+    <main class="container mt-4">
+        <div class="alert alert-secondary" role="alert">
+            Bem-vindo à página <strong class="text-danger">Ranking</strong>, veja abaixo a tabela atual do campeonato!
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Clube</th>
+                        <th>Pts</th>
+                        <th>PJ</th>
+                        <th>VIT</th>
+                        <th>DER</th>
+                        <th>PM</th>
+                        <th>PS</th>
+                        <th>SG</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><img src="imagens/times/lakers.png" alt="Lakers"> Lakers</td>
+                        <td>22</td>
+                        <td>12</td>
+                        <td>15</td>
+                        <td>2</td>
+                        <td>120</td>
+                        <td>85</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><img src="imagens/times/heat.png" alt="Heat"> Heat</td>
+                        <td>20</td>
+                        <td>12</td>
+                        <td>14</td>
+                        <td>3</td>
+                        <td>110</td>
+                        <td>90</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><img src="imagens/times/warriors.png" alt="Warriors"> Warriors</td>
+                        <td>18</td>
+                        <td>12</td>
+                        <td>12</td>
+                        <td>4</td>
+                        <td>105</td>
+                        <td>80</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><img src="imagens/times/celtics.png" alt="Celtics"> Celtics</td>
+                        <td>17</td>
+                        <td>12</td>
+                        <td>11</td>
+                        <td>5</td>
+                        <td>100</td>
+                        <td>85</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><img src="imagens/times/mavericks.png" alt="Mavericks"> Mavericks</td>
+                        <td>15</td>
+                        <td>12</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>90</td>
+                        <td>75</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><img src="imagens/times/suns.png" alt="Suns"> Suns</td>
+                        <td>14</td>
+                        <td>12</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>85</td>
+                        <td>80</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td><img src="imagens/times/raptors.png" alt="Raptors"> Raptors</td>
+                        <td>12</td>
+                        <td>12</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>80</td>
+                        <td>80</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td><img src="imagens/times/bucks.png" alt="Bucks"> Bucks</td>
+                        <td>10</td>
+                        <td>12</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>75</td>
+                        <td>85</td>
+                        <td>-10</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><img src="imagens/times/pacers.png" alt="Pacers"> Pacers</td>
+                        <td>10</td>
+                        <td>12</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>78</td>
+                        <td>92</td>
+                        <td>-14</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="text-muted">Legenda: Pts = Pontos | PJ = Partidas Jogadas | VIT = Vitórias | DER = Derrotas | PM =
+            Pontos Marcados | PS = Pontos Sofridos | SG = Saldo de Pontos</p>
+    </main>
+
+
+
+    </br>
+    <footer class="bg-dark text-light p-4 mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">REDES SOCIAIS</h5>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://twitter.com/NBABrasil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                            class="text-light mx-2">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="https://www.facebook.com/nba/?locale=pt_BR" class="text-light mx-2">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.youtube.com/NBA" class="text-light mx-2">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/nba/" class="text-light mx-2">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">ENDEREÇO</h5>
+                    <p class="mb-1">
+                        <i class="fas fa-map-marker-alt custom-text-color"></i> Av. Dr. Afonso Vergueiro, 823 - Loja
+                        10701 Bloco I - Centro, Sorocaba - SP, 18035-370
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">HORÁRIO DE FUNCIONAMENTO</h5>
+                    <p class="mb-0">
+                        <i class="far fa-clock custom-text-color"></i> Dom-Dom: 10h - 22h
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <h5 class="custom-text-color fw-bold text-center">LOCALIZAÇÃO</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14636.040444437669!2d-47.4612596!3d-23.4961453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b594525fac9%3A0x634eb1c52d9abee8!2sNBA%20Store!5e0!3m2!1spt-BR!2sbr!4v1725767491537!5m2!1spt-BR!2sbr"
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <hr class="bg-light">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-12">
+                    <p class="text-center small mb-0">
+                        Copyright © 2024 - Giovane Hessel e Amilton Solovinho.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Script-Bootstrap -->
+    <script src="./fonts/js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destaques</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="imagens/png" href="imagens/logo.png">
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+
+    <style>
+        main.container {
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #ed174c;
+        }
+
+        .ranking-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .ranking-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .ranking-card-body {
+            padding: 15px;
+        }
+
+        .rank-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #006bb6;
+            background-color: #f8f9fa;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+        }
+
+        .ranking-card h4 {
+            font-size: 25px;
+            margin: 0;
+            color: #333;
+        }
+
+        .ranking-card p {
+            font-size: 20px;
+            color: #666;
+        }
+
+        h1+.ranking-card {
+            margin-top: 20px;
+        }
+
+        .navbar-toggler .fa-bars {
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg border-body p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-item active">
+                <img src="imagens/logo-nba.png" alt="logo" class="icon-img">
+            </a>
+            <button class="navbar-toggler mr-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                &nbsp;
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html"> <i class="fa-solid fa-house"></i>
+                            Home</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./times.html"> <i class="fa-solid fa-basketball-ball"></i> Times</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./jogadores.html"> <i class="fa-solid fa-people-arrows"></i>
+                            Jogadores</a>
+                        </a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item "></li>
+                    <a class="nav-link" href="./ranking.html"> <i class="fa-solid fa-ranking-star"></i> Ranking</a>
+                    </a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./noticias.html"> <i class="fa-solid fa-newspaper"></i> Noticias</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobre.html"> <i class="fa-solid fa-building"></i> Sobre nós</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html"> <i class="fa-solid fa-envelope"></i> Contato</a>
+                    </li>
+                    &nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link" href="./criadores.html"> <i class="fa-solid fa-users"></i> Criadores</a>
+                    </li>
+                    &nbsp;
+                </ul>
+                <div class="navbar-buttons ml-auto">
+                    <a href="https://www.instagram.com/nba/" class="btn btn-social"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/nba/?locale=pt_BR" class="btn btn-social"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </br>
+    <main class="container">
+        <div class="alert alert-secondary" role="alert">
+            Bem-vindo à página <strong class="text-danger">Destaques</strong>. Vamos rankear os 10 lances mais
+            memoráveis em jogos de basquete!
+        </div>
+    </main>
+
+    <main class="container">
+        <h1>Top 10 Maiores Lances de Basquete</h1>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/dunk.png" alt="Lance 1">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">1</span>
+                    <h4 class="ms-3">A Dunk de Michael Jordan em 1997</h4>
+                </div>
+                <p>Michael Jordan, no auge de sua carreira, realiza uma enterrada impressionante durante as finais da
+                    NBA.</p>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/tabela.jpg" alt="Lance 2">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">2</span>
+                    <h4 class="ms-3">A Tabela de LeBron James em 2016</h4>
+                </div>
+                <p>LeBron James faz uma tabela espetacular no jogo 7 das finais da NBA, garantindo o título para o
+                    Cleveland Cavaliers.</p>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/arremesso.jpg" alt="Lance 3">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">3</span>
+                    <h4 class="ms-3">O Arremesso de Larry Bird em 1985</h4>
+                </div>
+                <p>Larry Bird realiza um arremesso de três pontos crucial no final do quarto período contra o Los
+                    Angeles Lakers.</p>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/magic.jpg" alt="Lance 4">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">4</span>
+                    <h4 class="ms-3">O Toque de Magic Johnson em 1987</h4>
+                </div>
+                <p>Magic Johnson faz um passe de toque brilhante para vencer o jogo contra o Boston Celtics.</p>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/dirk.jpg" alt="Lance 5">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">5</span>
+                    <h4 class="ms-3">A Arremesso de Dirk Nowitzki em 2011</h4>
+                </div>
+                <p>Dirk Nowitzki faz um arremesso decisivo para garantir o título dos Mavericks nas finais da NBA.</p>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/bloqueio.jpg" alt="Lance 6">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">6</span>
+                    <h4 class="ms-3">A Bloqueio de Hakeem Olajuwon em 1993</h4>
+                </div>
+                <p>Hakeem Olajuwon faz um bloqueio impressionante para garantir a vitória dos Houston Rockets nas finais
+                    da NBA.</p>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/enfiada.jpg" alt="Lance 7">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">7</span>
+                    <h4 class="ms-3">A Enfiada de Vince Carter em 2000</h4>
+                </div>
+                <p>Vince Carter faz uma enterrada espetacular na competição olímpica, impressionando a todos os
+                    espectadores.</p>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/kobe.jpeg" alt="Lance 8">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">8</span>
+                    <h4 class="ms-3">O Arremesso de Kobe Bryant em 2010</h4>
+                </div>
+                <p>Kobe Bryant faz um arremesso incrível para vencer o jogo e levar o Los Angeles Lakers ao campeonato.
+                </p>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/allen.jpg" alt="Lance 9">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">9</span>
+                    <h4 class="ms-3">A Jogada de Allen Iverson em 2001</h4>
+                </div>
+                <p>Allen Iverson realiza uma jogada sensacional, driblando vários adversários para um arremesso
+                    impecável.</p>
+            </div>
+        </div>
+
+        <div class="ranking-card">
+            <img src="imagens/lances/enterrada.jpg" alt="Lance 10">
+            <div class="ranking-card-body">
+                <div class="d-flex align-items-center">
+                    <span class="rank-number">10</span>
+                    <h4 class="ms-3">A Enterrada de Shaquille O'Neal em 2000</h4>
+                </div>
+                <p>Shaquille O'Neal faz uma enterrada dominante durante uma das finais da NBA, mostrando sua força e
+                    habilidade.</p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="bg-dark text-light p-4 mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">REDES SOCIAIS</h5>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://twitter.com/NBABrasil?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                            class="text-light mx-2">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="https://www.facebook.com/nba/?locale=pt_BR" class="text-light mx-2">
+                            <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.youtube.com/NBA" class="text-light mx-2">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/nba/" class="text-light mx-2">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">ENDEREÇO</h5>
+                    <p class="mb-1">
+                        <i class="fas fa-map-marker-alt custom-text-color"></i> Av. Dr. Afonso Vergueiro, 823 - Loja
+                        10701 Bloco I - Centro, Sorocaba - SP, 18035-370
+                    </p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0 text-center">
+                    <h5 class="custom-text-color fw-bold">HORÁRIO DE FUNCIONAMENTO</h5>
+                    <p class="mb-0">
+                        <i class="far fa-clock custom-text-color"></i> Dom-Dom: 10h - 22h
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <h5 class="custom-text-color fw-bold text-center">LOCALIZAÇÃO</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14636.040444437669!2d-47.4612596!3d-23.4961453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b594525fac9%3A0x634eb1c52d9abee8!2sNBA%20Store!5e0!3m2!1spt-BR!2sbr!4v1725767491537!5m2!1spt-BR!2sbr"
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <hr class="bg-light">
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-12">
+                    <p class="text-center small mb-0">
+                        Copyright © 2024 - Giovane Hessel e Amilton Solovinho.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Script-Bootstrap -->
+    <script src="./fonts/js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+.body, html {
+    background-color: #ffffff;
+
+}
+
+.navbar {
+    background-color: #10171e;
+}
+
+p, h6, body, h3, h2, h5, h4, h1 {
+    font-family: 'basketball';
+  }
+  
+
+.navbar-buttons .btn-social {
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    color: #ffffff;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbar-buttons .btn-social:hover {
+    background-color: #006bb6;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: var(--bs-body-color) !important;
+    outline: 0;
+    box-shadow: var(--bs-body-color-shadow) !important;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'basketball';
+    color: #ffffff;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ffffff !important;
+    background-color: #006bb6;
+}
+
+.navbar-nav .nav-link.active:hover {
+    color: #ffffff !important;
+    background-color: #006bb6;
+}
+
+  @font-face {
+    font-family: 'basketball';
+    src: url('../fonts/Basketball.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;;
+}
+  
+.icon-img {
+    width: 60px;
+}
+
+
+footer {
+    background-color: #10171e;
+}
+
+.custom-text-color {
+    color: #ed174c;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #ccc;
+}
+
+footer .text-center i {
+    color: #ed174c;
+}
+
+.carousel-caption {
+    right: 0;
+    left: auto;
+    bottom: 50px;
+    text-align: right;
+}
+
+.carousel-inner img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    left: auto; 
+    bottom: 50px;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 5px; 
+}
+
+@media (max-width: 767px) {
+    .carousel-caption {
+        bottom: 20px;
+        left: 0; 
+        right: 0; 
+        padding: 10px;
+        text-align: center;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.carousel-caption p {
+    color: #ffffff;
+}
+
+
+.best-players-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.card {
+    border: none;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: none;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #343a40;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+#modalImagem {
+    width: 100%;
+    height: auto;
+}
+
+.custom-hr {
+    border-top: 3px solid #000000;
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.where-to-watch-section h2 {
+    margin-bottom: 20px;
+}
+
+.where-to-watch-section img {
+    max-width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.where-to-watch-section img:hover {
+    transform: scale(1.1)
+}
+
+.alert.alert-secondary {
+    font-family: 'basketball', sans-serif;
+    font-size: 19px; 
+  }
